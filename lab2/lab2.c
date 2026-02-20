@@ -25,7 +25,7 @@ int main(){
 	int integer;
 	printf("Size of year_1grades: %zu bytes\n", sizeof(year_1grades));
 	printf("Size of year_2grades: %zu bytes\n", sizeof(year_2grades));
-	printf("Size of each element: %zu bytes\n", (sizeof(year_2grades) / sizeof(int)));
-	printf("Size of int: %zu bytes", sizeof(integer));
+	printf("Number of elements: %zu bytes\n", (sizeof(year_2grades) / sizeof(int)));
+	printf("Size of each element: %zu bytes", sizeof(integer));
 	
 }
