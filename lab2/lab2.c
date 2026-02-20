@@ -22,8 +22,10 @@ int main(){
 	for (int i = 0; i < noOfy2Modules; i++){
 		printf("Grade %d = %d\n", i + 1,  year_2grades[i]);
 	} 
-	
+	int integer;
 	printf("Size of year_1grades: %zu bytes\n", sizeof(year_1grades));
-	printf("Size of year_2grades: %zu bytes", sizeof(year_2grades));
+	printf("Size of year_2grades: %zu bytes\n", sizeof(year_2grades));
+	printf("Size of each element: %zu bytes\n", (sizeof(year_2grades) / sizeof(int)));
+	printf("Size of int: %zu bytes", sizeof(integer));
 	
 }
